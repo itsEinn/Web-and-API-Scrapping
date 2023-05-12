@@ -17,6 +17,6 @@ for key in response_json.keys():
             endpoint = f"{key}/{subkey}"
             endpoints.append(endpoint)
 
-# Print all available endpoints
+
 for endpoint in endpoints:
     print(endpoint)
